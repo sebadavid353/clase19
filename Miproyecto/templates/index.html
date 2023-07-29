@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+
+{% block CONTENIDO %}
+    <a href="{% url 'cliente:index' %}">Ir a Clientes</a>
+    <br>
+    <br>
+    <a href="{% url 'venta:index' %}">Ir a Ventas</a>
+{% endblock CONTENIDO %}
